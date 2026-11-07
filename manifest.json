@@ -2,11 +2,15 @@
   "id": "/Layanan-Service-Elektrohub/",
   "name": "Service Elektrohub",
   "short_name": "Elektrohub",
+  "description": "Layanan perbaikan dan service barang elektronik terpercaya",
   "start_url": "./index.html",
   "display": "standalone",
+  "display_override": ["standalone", "browser"],
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
+  "categories": ["business", "utilities"],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "assets/logo.png",
